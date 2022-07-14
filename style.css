@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+.container{
+    display:grid;
+   
+    grid-template-areas:
+     'one two three four five'
+     'six seven eight nine ten'
+     'eleven twelve thirteen fourteen fifteen'
+     'sixteen seventeen eighteen nineteen twenty'
+     'twentyOne twentyTwo twentyThree twentyFour twentyFive'
+     ;
+     gap: 10px;
+     margin: auto;
+     margin-top: 150px;
+     max-width: 50vw;
+}
+.btn-div{
+  text-align: center;
+  
+}
+.btn{
+    border-radius: 25px;
+    border: none;
+    background-color: paleturquoise;
+    color: navy;
+    height: 50px;
+    width: 10%;
+    margin-top: 20px;
+    
+}
+
+.div1{
+    grid-area: one;
+    background-color: pink;
+    height: 100px;
+    
+}
+.div1:hover{
+    background-color: red;
+}
+
+ .div2{
+    grid-area: two;
+    background-color: pink;
+    height: 100px;
+    
+}
+.div2:hover{
+    background-color: orange;
+}
+
+.div3{
+    grid-area: three;
+    background-color: pink;
+    height: 100px;
+    
+}
+.div3:hover{
+    background-color: orangered;
+}
+
+.div4{
+    grid-area: four;
+    background-color: pink;
+    height: 100px;
+    
+}
+.div4:hover{
+    background-color: olive;
+}
+
+ .div5{
+    grid-area: five;
+    background-color: pink;
+    height: 100px;
+    
+}
+.div5:hover{
+    background-color: olivedrab;
+}
+
+.div6{
+    grid-area: six;
+    background-color: blue;
+    height: 100px;
+}
+.div6:hover{
+    background-color: blueviolet;
+}
+
+.div7{
+    grid-area: seven;
+    background-color: blue;
+    height: 100px;
+}
+.div7:hover{
+    background-color: pink;
+}
+
+.div8{
+    grid-area: eight;
+    background-color: blue;
+    height: 100px;
+}
+.div8:hover{
+    background-color: palegoldenrod;
+}
+ .div9{
+    grid-area: nine;
+    background-color: blue;
+    height: 100px;
+}
+.div9:hover{
+    background-color: palegreen;
+}
+
+.div10{
+    grid-area: ten;
+    background-color: blue;
+    height: 100px;
+}
+.div10:hover{
+    background-color: paleturquoise;
+}
+
+
+.div11{
+    grid-area: eleven;
+    background-color: green;
+    height: 100px;
+}
+.div11:hover{
+    background-color: palevioletred;
+}
+.div12{
+    grid-area: twelve;
+    background-color: green;
+    height: 100px;
+}
+.div12:hover{
+    background-color: peru;
+}
+.div13{
+    grid-area: thirteen;
+    background-color: green;
+    height: 100px;
+}
+.div13:hover{
+    background-color: plum;
+}
+.div14{
+    grid-area: fourteen;
+    background-color: green;
+    height: 100px;
+}
+.div14:hover{
+    background-color: purple;
+}
+.div15{
+    grid-area: fifteen;
+    background-color: green;
+    height: 100px;
+}
+.div15:hover{
+    background-color: powderblue;
+}
+
+.div16{
+    grid-area: sixteen;
+    background-color: peachpuff;
+    height: 100px;
+}
+.div16:hover{
+    background-color: lavender;
+}
+.div17{
+    grid-area: seventeen;
+    background-color: red;
+    height: 100px;
+}
+.div17:hover{
+    background-color: limegreen;
+}
+ .div18{
+    grid-area: eighteen;
+    background-color: orange;
+    height: 100px;
+}
+.div18:hover{
+    background-color: firebrick;
+}
+ .div19{
+    grid-area: nineteen;
+    background-color: blueviolet;
+    height: 100px;
+}
+.div19:hover{
+    background-color: burlywood;
+}
+.div20{
+    grid-area: twenty;
+    background-color: pink;
+    height: 100px;
+}
+.di20:hover{
+    background-color: wheat;
+}
+.div21{
+    grid-area: twentyOne;
+    background-color: grey;
+    height: 100px;
+}
+.div21:hover{
+    background-color: navy;
+}
+.div22{
+    grid-area: twentyTwo;
+    background-color: cadetblue;
+    height: 100px;
+}
+.div22:hover{
+    background-color: violet;
+}
+.div23{
+    grid-area: twentyThree;
+    background-color: yellow;
+    height: 100px;
+}
+.div23:hover{
+    background-color: ghostwhite;
+}
+.div24{
+    grid-area: twentyFour;
+    background-color: yellowgreen;
+    height: 100px;
+}
+.div24:hover{
+    background-color: darkcyan;
+}
+ .div25{
+    grid-area: twentyFive;
+    background-color: pink;
+    height: 100px;
+}
+.div25:hover{
+    background-color: aqua;
+}
+/*.div11, .div12, .div13, .div14, .div15, .div16, .div17, .div18, .div19, .div20{
+    grid-area: two;
+}
+.div21, .div22, .div23, .div24, .div25, .div26, .div27, .div28, .div29, .div30{
+    grid-area: three;
+}
+.div31, .div32, .div33, .div34, .div35, .div36, .div37, .div38, .div39, .div40{
+    grid-area: four;
+}
+.div41, .div42, .div43, .div44, .div45, .div46, .div47, .div48, .div49, .div50{
+    grid-area: five;
+}
+.div51, .div52, .div53, .div54, .div55, .div56, .div57, .div58, .div59, .div60{
+    grid-area: six;
+}
+.div61, .div62, .div63, .div64, .div65, .div66, .div67, .div68, .div69, .div70{
+    grid-area: seven;
+}
+.div71, .div72, .div73, .div74, .div75, .div76, .div77, .div78, .div79, .div80{
+    grid-area: eight;
+}
+.div81, .div82, .div83, .div84, .div85, .div86, .div87, .div88, .div89, .div90{
+    grid-area: nine;
+}
+.div91, .div92, .div93, .div94, .div95, .div96, .div97, .div98, .div99, .div100{
+    grid-area: ten;
+}
+*/
